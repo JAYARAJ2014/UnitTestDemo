@@ -42,10 +42,15 @@ After all these are done, perform a quick build
 You should get `Build succeeded`
 
 Rename the UnitTest1.cs to FizzBuzzTest
+
 Rename the Test class to FizzBuzzTests
+
 Rename the Class1 in FizzBuzz project to FizzBuzz
-Rename the namespace to NumberGimmicks (To avoid confusion of class and namespace being same)
+
+Rename the namespace to NumberGimmicks (To avoid confusion of class and namespace being same).
+
 Run a `dotnet build` you should get build succeeded and `dotnet test` you should see passed and failed tests status on command line.
+
 Nothing important at this moment.This is just a sanity check
 
 Import NumberGimmicks namespace ` using FizzBuzz` in FizzBuzzTest
